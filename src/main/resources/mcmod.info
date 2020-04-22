@@ -1,0 +1,16 @@
+[
+{
+  "modid": "rubikscubemod",
+  "name": "Rubik's Cube Mod",
+  "description": "It's a Rubik's cube",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Zorink"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
