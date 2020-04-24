@@ -1,0 +1,52 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "rubikscubemod:blocks/yellow",
+		"1": "rubikscubemod:blocks/blue",
+		"2": "rubikscubemod:blocks/red",
+		"3": "rubikscubemod:blocks/green",
+		"4": "rubikscubemod:blocks/orange",
+		"5": "rubikscubemod:blocks/white",
+		"particle": "rubikscubemod:blocks/yellow"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6],
+			"to": [10, 4, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#5"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 8, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 8, 0]
+		},
+		"ground": {
+			"translation": [0, 6, 0]
+		},
+		"gui": {
+			"rotation": [30, -45, 0],
+			"translation": [0, 13, 0],
+			"scale": [2.5, 2.5, 2.5]
+		},
+		"head": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 24, 0],
+			"scale": [4, 4, 4]
+		},
+		"fixed": {
+			"rotation": [-45, 135, 0],
+			"translation": [0, 5, -7.75]
+		}
+	}
+}
