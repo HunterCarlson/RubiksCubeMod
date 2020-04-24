@@ -20,26 +20,31 @@ public class ModBlocks {
     static Block rubiksCubeBlock;
 
     public static void init() {
-        rubiksCubeBlock = new RubiksCubeBlock("rubiksCubeBlock", Material.WOOD).setCreativeTab(CreativeTabs.DECORATIONS);
+        rubiksCubeBlock =
+                new RubiksCubeBlock("rubiksCubeBlock", Material.WOOD).setCreativeTab(CreativeTabs.DECORATIONS);
     }
 
     @SubscribeEvent
-    public static void registerBlocks(RegistryEvent.Register<Block> event){
+    public static void registerBlocks(RegistryEvent.Register<Block> event) {
         event.getRegistry().register(rubiksCubeBlock);
     }
 
     @SubscribeEvent
-    public static void registerItemBlocks(RegistryEvent.Register<Item> event){
+    public static void registerItemBlocks(RegistryEvent.Register<Item> event) {
         event.getRegistry().register(new ItemBlock(rubiksCubeBlock).setRegistryName(rubiksCubeBlock.getRegistryName()));
     }
 
     @SubscribeEvent
-    public static void registerRenders(ModelRegistryEvent event){
+    public static void registerRenders(ModelRegistryEvent event) {
         registerRender(Item.getItemFromBlock(rubiksCubeBlock));
     }
 
-    public static void registerRender(Item item){
-        ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
+    public static void registerRender(Item item) {
+        ModelLoader.setCustomModelResourceLocation(
+                item,
+                0,
+                new ModelResourceLocation(item.getRegistryName(), "inventory")
+        );
     }
 
 }
