@@ -1,13 +1,13 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "block/Yellow",
-		"1": "block/Blue",
-		"2": "block/Red",
-		"3": "block/Green",
-		"4": "block/Orange",
-		"5": "block/White",
-		"particle": "block/Yellow"
+		"0": "block/yellow",
+		"1": "block/blue",
+		"2": "block/red",
+		"3": "block/green",
+		"4": "block/orange",
+		"5": "block/white",
+		"particle": "particles"
 	},
 	"elements": [
 		{
@@ -31,6 +31,14 @@
 		"thirdperson_lefthand": {
 			"translation": [0, 8, 0]
 		},
+		"firstperson_righthand": {
+			"rotation": [0, -60, 0],
+			"translation": [0, 7, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 30, 0],
+			"translation": [0, 7, 0]
+		},
 		"ground": {
 			"translation": [0, 6, 0]
 		},
@@ -48,5 +56,12 @@
 			"rotation": [-45, 135, 0],
 			"translation": [0, 5, -7.75]
 		}
-	}
+	},
+	"groups": [
+		{
+			"name": "RubiksCube",
+			"origin": [8, 8, 8],
+			"children": [0]
+		}
+	]
 }

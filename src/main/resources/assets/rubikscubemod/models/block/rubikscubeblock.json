@@ -7,7 +7,7 @@
 		"3": "rubikscubemod:blocks/green",
 		"4": "rubikscubemod:blocks/orange",
 		"5": "rubikscubemod:blocks/white",
-		"particle": "rubikscubemod:blocks/yellow"
+		"particle": "rubikscubemod:blocks/particles"
 	},
 	"elements": [
 		{
@@ -30,6 +30,14 @@
 		},
 		"thirdperson_lefthand": {
 			"translation": [0, 8, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -60, 0],
+			"translation": [0, 7, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 30, 0],
+			"translation": [0, 7, 0]
 		},
 		"ground": {
 			"translation": [0, 6, 0]
