@@ -2,7 +2,7 @@
 
 ![alt text](https://github.com/HunterCarlson/RubiksCubeMod/blob/master/img/Rubik's%20Cube%20Mod%20Icon%20128px.png?raw=true)
 
-## Rubik's Cube block in Minecraft!
+## A player scale Rubik's Cube!
 
 Minecraft 1.12.2
 
