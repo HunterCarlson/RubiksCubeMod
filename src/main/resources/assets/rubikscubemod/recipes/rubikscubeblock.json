@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Y_W",
+    "B_G",
+    "R_O"
+  ],
+  "key": {
+    "Y": {
+      "type": "forge:ore_dict",
+      "ore": "dyeYellow"
+    },
+    "_": {
+      "type": "forge:ore_dict",
+      "ore": "slabWood"
+    },
+    "W": {
+      "type": "forge:ore_dict",
+      "ore": "dyeWhite"
+    },
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "dyeBlue"
+    },
+    "G": {
+      "type": "forge:ore_dict",
+      "ore": "dyeGreen"
+    },
+    "R": {
+      "type": "forge:ore_dict",
+      "ore": "dyeRed"
+    },
+    "O": {
+      "type": "forge:ore_dict",
+      "ore": "dyeOrange"
+    }
+  },
+  "result": {
+    "item": "rubikscubemod:rubikscubeblock",
+    "count": 1
+  }
+}
