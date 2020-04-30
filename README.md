@@ -1,8 +1,10 @@
 # Rubik's Cube Mod
 
-![alt text](https://github.com/HunterCarlson/RubiksCubeMod/blob/master/img/Rubik's%20Cube%20Mod%20Icon%20128px.png?raw=true)
+![alt text](https://github.com/HunterCarlson/RubiksCubeMod/blob/master/img/RubiksCubeModIcon_128px.png?raw=true)
 
 ## A player scale Rubik's Cube!
+
+### Requirements 
 
 Minecraft 1.12.2
 
